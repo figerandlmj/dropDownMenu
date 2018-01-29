@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul,
+li {list-style: none;}
+.menu-box {
+	width: 1000px;
+	height: 40px;
+	margin: 30px auto;
+	line-height: 40px;
+	background: #eee;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.menu > li {float: left;}
+.menu > li a {
+	display: block;
+	width: 140px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+.menu dl {
+	display: none;
+	width: 138px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+/*.menu > li:hover dl {display: block;}*/
+.menu dl dt {
+	border-bottom: 1px solid #fff;
+	border-radius: 5px;
+}
+/*.menu dl dt:hover {background-color: #fff;}*/

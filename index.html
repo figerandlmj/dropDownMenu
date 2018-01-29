@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>下拉菜单</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="menu-box" id="menu-box">
+		<ul class="menu" id="menu">
+			<li><a href="#">首页</a></li>
+			<li onmouseover="showMenu(this)" onmouseout="hideMenu(this)">
+				<a href="#">新闻</a>
+				<dl>
+					<dt><a href="#">国际要闻</a></dt>
+					<dt><a href="#">国内动态</a></dt>
+				</dl>
+			</li>
+			<li onmouseover="showMenu(this)" onmouseout="hideMenu(this)">
+				<a href="#">游戏下载</a>
+				<dl>
+					<dt><a href="#">射击小游戏</a></dt>
+					<dt><a href="#">动作小游戏</a></dt>
+					<dt><a href="#">单机小游戏</a></dt>
+					<dt><a href="#">装扮小游戏</a></dt>
+				</dl>
+			</li>
+      <li><a href="#">关于我们</a></li>
+		</ul>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
